@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container .row .col-lg-6 .list-item {
+  margin-bottom: 15px;
+}
+
+.container .row .col-lg-6 .list-item .title {
+  border: 1px solid rgba(0, 102, 255, 0.747);
+  background-color: rgba(0, 102, 255, 0.747);
+  cursor: pointer;
+}
+
+.container .row .col-lg-6 .list-item .title h1 {
+  font-size: 25px;
+  margin: 10px;
+}
+
+.container .row .col-lg-6 .list-item .description {
+  border: 1px solid orange;
+  background-color: orange;
+  height: 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.container .row .col-lg-6 .list-item .description p {
+  color: white;
+  margin: 10px;
+}
+
+.list-item .description.active {
+  height: 150px !important;
+}
+/*# sourceMappingURL=style.css.map */

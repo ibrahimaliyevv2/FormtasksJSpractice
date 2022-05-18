@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-md-3 .text{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border: 1px solid black;
+}
+
+.col-md-3 .text p{
+    font-size: 18px;
+}
+
+.row .col-md-3 .image{
+    filter: blur(10px);
+}
+.row .col-md-3 img{
+    width:100%;
+    transition: 0.4s;
+}
+
+.row .col-md-3 img:hover{
+    width:110%;
+}
+
+.col-md-3 .text{
+    cursor: pointer;
+}
+
+.col-md-3 .text:hover{
+    background-color: rgb(0, 173, 0);
+    color:white;
+}
